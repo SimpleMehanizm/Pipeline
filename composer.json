@@ -1,0 +1,17 @@
+{
+    "name": "simplemehanizm/pipeline",
+    "description": "Define pipelines using array of stages",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SimpleMehanizm\\Pipeline\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "N.B."
+        }
+    ],
+    "require": {}
+}
