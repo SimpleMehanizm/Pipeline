@@ -1,7 +1,8 @@
 <?php
 
-namespace SimpleMehanizm\Pipeline;
+declare(strict_types=1);
 
+namespace SimpleMehanizm\Pipeline;
 
 use SimpleMehanizm\Pipeline\Exceptions\InvalidStageException;
 
