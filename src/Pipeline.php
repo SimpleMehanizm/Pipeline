@@ -15,7 +15,7 @@ class Pipeline
     protected string $viaMethod = 'handle';
     protected array $performance = [];
 
-    public function send(object $state): self
+    public function send(StateInterface $state): self
     {
         $this->state = $state;
 
